@@ -3,10 +3,22 @@
 ![group7_logo](https://cdn.archonia.us/images/1-63650-1-1-original1/naruto-shippuden-fabric-poster-team-7.jpg)
 
 
-## 1. Group members
+## Group members
 - _Chen_ -MIT
 - _Jay_ -Cleveland Clinic
 - _An_ -LSU
+
+## Repository files description
+### Folder - Hydrology
+- sadler_JoH_resource_diagram.png - a figure showing workflow
+- Project II.pdf - project information I
+- Project-II Cheat Sheet.pdf - project information II
+- STORM_data_flooded_streets_2010-2016.csv - preprocessing-I data
+- prepare_flood_events_table_NEW.py - preprocessing-I script
+- make_dly_obs_table_standalone_NEW.py - preprocessing-II script
+- preprocessing-II script is too large to be uploaded to Github, see https://www.hydroshare.org/resource/9e1b23607ac240588ba50d6b5b9a49b5/
+
+### Folder - Seismology
 
 ## 2. Goals by members
 ### 2.1 Chen's goals
