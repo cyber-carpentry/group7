@@ -70,9 +70,13 @@ https://github.com/orgs/cyber-carpentry/projects/5
 
 ### 6.2 Seismology project tasks
 
-## Tricks
-- Move file from local machine to Jetstream volume
+## 7. Tricks
+- Move file from local machine to Jetstream 
 > scp file.txt username@to_host:/remote/directory/
+- Move file from Jetstream to local machine
+> scp username@from_host:file.txt /local/directory/
 
-
+## 8. Factors that affect reproducibility
+- Python version
+- Script and data documentation
 
