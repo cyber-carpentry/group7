@@ -63,3 +63,9 @@ https://github.com/orgs/cyber-carpentry/projects/5
 
 
 
+## Tricks
+- Move file from local machine to Jetstream volume
+> scp file.txt username@to_host:/remote/directory/
+
+
+
