@@ -15,6 +15,12 @@
 - by_event_for_model_NEW.py - preprocessing-III script
 - for_model_avgs.csv - preprocessing-III output
 
+- model_flood_counts_rf_ps_cln_NEW.r - Major R code
+- poisson_out_test.csv - output
+- poisson_out_train.csv - output
+- rf_out_test.csv - output
+- rf_out_train.csv - output
+
 
 # Work log
 
