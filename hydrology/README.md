@@ -15,11 +15,11 @@
 - make_dly_obs_table_standalone_NEW.py - preprocessing-II script
 - nor_daily_observations_standalone.csv - preprocessing-II output
 
-## preprocessing II
+## preprocessing III
 - by_event_for_model_NEW.py - preprocessing-III script
 - for_model_avgs.csv - preprocessing-III output
 
-## preprocessing II
+## major R code
 - model_flood_counts_rf_ps_cln_NEW.r - Major R code
 - poisson_out_test.csv - output
 - poisson_out_train.csv - output
