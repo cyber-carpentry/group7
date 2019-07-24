@@ -15,3 +15,8 @@
 - by_event_for_model_NEW.py - preprocessing-III script
 - for_model_avgs.csv - preprocessing-III output
 
+
+# Work log
+
+- Find the paper's workflow chart
+- 
