@@ -19,8 +19,11 @@ The repository has two folders. After clone the repo to host, cd into hydrology 
 ### Step-2 Download the large input file "hampt_rd_data.sqlite"
 - Download the file from 
 https://www.hydroshare.org/resource/9e1b23607ac240588ba50d6b5b9a49b5/
+
 - After download, put the file into hydrology folder
-- Tip: if you are using a virtual machine, to transfer the file from your local machine to VM, use scp command.
+
+-IF YOUR ARE USING VM:
+to transfer the file from your local machine to VM, use scp command.
 example: in your local machine terminal, run
 ```
 scp hampt_rd_data.sqlite username@to_host:/remote/directory/
@@ -28,7 +31,8 @@ scp hampt_rd_data.sqlite username@to_host:/remote/directory/
 
 ### Step-3 Build docker image
 ```
-docker build -t test_image -f Dockerfile.ubuntu_16_py27_py_3_r_3 .
+
+
 ```
 ### Step-4 Run docker image
 ```
