@@ -31,8 +31,5 @@
 - run multiple scripts pipeline using workflow
 - containerize the workflow
 
-## 6. Factors that affect reproducibility
-- Python and R versions
-- hard coded path in the scripts
-- lack of reproducibility documentation
+
 
