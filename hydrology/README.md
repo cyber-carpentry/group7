@@ -19,6 +19,9 @@ docker -i -t exec container_ID /bin/sh
 - Other inofrmation from author: Project II.pdf - project information I
 - Other information from author: Project-II Cheat Sheet.pdf - project information II
 
+![work_flow](https://github.com/cyber-carpentry/group7_repo/hydrology/sadler_JoH_resource_diagram.png)
+
+
 ### 2.2 preprocessing I
 - STORM_data_flooded_streets_2010-2016.csv - preprocessing-I data
 - prepare_flood_events_table_NEW.py - preprocessing-I script
