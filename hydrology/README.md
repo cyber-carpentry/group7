@@ -41,7 +41,4 @@ docker run
 - rf_out_test.csv - output
 - rf_out_train.csv - output
 
-### 2.6 How things works
-- 
-
  
