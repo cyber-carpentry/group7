@@ -23,9 +23,10 @@ docker build -t Test_image -f Dockerfile.ubuntu_16_py27_py_3_r_3 .
 docker run -it Test_image
 ```
 ### Step-5 Run snakemake 
+NOTE: THIS HAS TO BE IN THE DOCKER IMAGE, which means you see something like this root@af643149d197:/#
 Firstly, cd into folder with snakemake
 ```
-"cd /Final_hydro/snakemake
+" cd /Final_hydro/snakemake
 ```
 Secondly, run snakemake
 ```
