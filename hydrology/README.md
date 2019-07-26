@@ -30,12 +30,11 @@ scp hampt_rd_data.sqlite username@to_host:/remote/directory/
 
 ### Step-3 Build docker image
 ```
-
-
+Run Command docker build -t test_image -f Dockerfile.ubuntu_16_py27_py_3_r_3 .
 ```
 ### Step-4 Run docker image
 ```
-docker run -it Test_image
+docker run -it test_image
 ```
 ### Step-5 Run snakemake 
 NOTE: THIS HAS TO BE IN THE DOCKER IMAGE, which means you see something like this root@af643149d197:/#
