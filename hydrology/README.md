@@ -100,10 +100,10 @@ snakemake --use-conda
 - the work flow is containerized.
 
  ## 4. Factors that affect reproducibility
-- Python and R versions
+- Dockerfile base image wihtou specified version tag, causing errors when building the container. e.g.specify Python and R versions
 - hard coded paths in the scripts
 - lack of reproducibility documentation
-- Dockerfile base image wihtou specified version tag, causing errors when building the container
+- 
 
  ## 5. Difficulties during the project
  - design of container structure: choose a base image and properly set up environent to get every script working
