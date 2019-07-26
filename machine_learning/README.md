@@ -1,9 +1,9 @@
 # This is a readme for the machine learning
 
 ## MNIST:
-https://github.com/guchchcug/MNIST-scratch
-https://github.com/guchchcug/MNIST-keras
-Fashion-mnist:
+- https://github.com/guchchcug/MNIST-scratch
+- https://github.com/guchchcug/MNIST-keras
+-Fashion-mnist:
 https://github.com/guchchcug/fashion-mnisit-base
 
 ## Procedures
