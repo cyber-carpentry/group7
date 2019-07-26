@@ -1,7 +1,7 @@
 # Reproducibility note for hydrology project
 
-# Method -1
 ## 1. Follow the following steps to reproduce the project
+## Method -1
 
 ### Step-1 Download the repository which has the input files, scripts, and Dockerfile
 open terminal and cd to your working directory, then run the following command
@@ -46,6 +46,8 @@ Secondly, run snakemake
 ```
 snakemake --use-conda
 ```
+## Method -2
+
 
 ## 2. Description of the workflow
 ### 2.1 Overview
