@@ -10,7 +10,7 @@
 
 
 ## 2. Goals by members
-- Reproduce paper workflow
+- Reproduce Sadler et al. (2018) workflow
 - Practice container, singularity, and snakemake
 - Machine learning
 - Run singularity on cloudv
@@ -22,32 +22,16 @@
 - Other materials https://drive.google.com/drive/folders/1T4bUQztoRkm5S6P6fnpC-a5FttteE-jz
 
 ## 4. Deliverables
-- dockerfile with all required environment configuration
+- dockerfile with all required environment to run 3 preporocessing python script and 1 R script
 
-## 6. Tasks
-### 6.1 Hydrology project tasks
-**Phases**
+## 5. Hydrology project phases
 - project preparation: read paper, make plan, gather script and data
-- try to run each script, including 3 preprocssing scripts, 1 model script
+- fix bugs for each script, including 3 preprocssing scripts, 1 model script
 - run multiple scripts pipeline using workflow
-- push container to DockerHub
-- try singularity
+- containerize the workflow
 
-**Detailed tasks**
-- [x] done       - [] undone
-- [] read the paper
-- [] download all raw materials to Github repository
-- [] Jetstream VM to test python code (note: need python version 2.7 )
-
-### 6.2 Seismology project tasks
-
-## 7. Tricks
-- Move file from local machine to Jetstream 
-> scp file.txt username@to_host:/remote/directory/
-- Move file from Jetstream to local machine
-> scp username@from_host:file.txt /local/directory/
-
-## 8. Factors that affect reproducibility
-- Python version
-- Script and data documentation
+## 6. Factors that affect reproducibility
+- Python and R version
+- hard coded path in the scripts
+- lack of reproducibility documentation
 
