@@ -1,7 +1,20 @@
 # Reproducibility note for hydrology project
 
-## 1. Follow the following steps to reproduce the project
-## Method -1
+## Method -1. Follow the following steps to reproduce the project
+### Pull pre-built image form DockerHub
+```
+docker pull jayadevjoshi12/team_7_hydrology_image
+```
+### Run the image
+```
+docker run -it jayadevjoshi12/team_7_hydrology_image
+```
+### IN THE CONTAINER run snakemake
+```
+cd /Final_hydro/snakemake
+```
+
+## Method -2. Follow the following steps to reproduce the project
 
 ### Step-1 Download the repository which has the input files, scripts, and Dockerfile
 open terminal and cd to your working directory, then run the following command
@@ -47,7 +60,6 @@ Secondly, run snakemake
 ```
 snakemake --use-conda
 ```
-## Method -2
 
 
 ## 2. Description of the workflow
