@@ -9,12 +9,12 @@ docker pull jayadevjoshi12/team_7_hydrology_image
 ```
 docker run -it jayadevjoshi12/team_7_hydrology_image
 ```
-### IN THE CONTAINER run snakemake
+### Step-3. IN THE CONTAINER run snakemake
 ```
 cd /Final_hydro/snakemake
 ```
 
-## Step-3. Method -2. Follow the following steps to reproduce the project
+## Method -2. Follow the following steps to reproduce the project
 
 ### Step-1. Download the repository which has the input files, scripts, and Dockerfile
 open terminal and cd to your working directory, then run the following command
@@ -114,5 +114,5 @@ snakemake --use-conda
   - consider reproducibility throughout the project
   - get helps from community 
   - good documentation is important for reproducibility
-  - seek feedbacks from users to improve reproducibility
+  - seek feedbacks from users to identify bugs and improve reproducibility
   
