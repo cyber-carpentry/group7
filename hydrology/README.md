@@ -1,11 +1,11 @@
 # Reproducibility note for hydrology project
 
-## Step-1. Method -1. Follow the following steps to reproduce the project
-### Pull pre-built image form DockerHub
+## Method -1. Follow the following steps to reproduce the project
+### Step-1. Pull pre-built image form DockerHub
 ```
 docker pull jayadevjoshi12/team_7_hydrology_image
 ```
-### Step-2.Run the image
+### Step-2. Run the image
 ```
 docker run -it jayadevjoshi12/team_7_hydrology_image
 ```
