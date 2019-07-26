@@ -36,4 +36,9 @@
 - rf_out_test.csv - output
 - rf_out_train.csv - output
 
+### 2.6 Workflow
+- the work flow runs the first two preprocessing code seperated and use their outputs to run the third preprocessing code.
+- use the third output as input to run the R script to generate results.
+- the work flow is containerized.
+
  
