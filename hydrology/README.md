@@ -6,12 +6,7 @@
 - Input files: (1) STORM_data_flooded_streets_2010-2016.csv ; (2) hampt_rd_data.sqlite , download this file from: https://www.hydroshare.org/resource/9e1b23607ac240588ba50d6b5b9a49b5/
 - Dockerfile: 
 ### 1.2 Build and run container
-'''
-docker build 
-'''
-'''
-docker run
-'''
+
 
 ## 2. Description of the workflow
 ### 2.1 Overview
