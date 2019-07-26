@@ -2,10 +2,7 @@
 
 
 ## 1. Follow the following steps to reproduce the project
-### 1.1 Gather files and scripts
-- Input files: (1) STORM_data_flooded_streets_2010-2016.csv ; (2) hampt_rd_data.sqlite , download this file from: https://www.hydroshare.org/resource/9e1b23607ac240588ba50d6b5b9a49b5/
-- Dockerfile: 
-### 1.2 Build and run container
+
 - Step-1 Download the repository which has the input files, scripts, and Dockerfile
 
 - Step-2 Download the large input file "hampt_rd_data.sqlite" and put in the same folder  https://www.hydroshare.org/resource/9e1b23607ac240588ba50d6b5b9a49b5/
