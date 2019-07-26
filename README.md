@@ -3,6 +3,12 @@
 ![group7_logo](https://cdn.archonia.us/images/1-63650-1-1-original1/naruto-shippuden-fabric-poster-team-7.jpg)
 
 
+## Reproducibility Instructions
+- Hydrology project
+
+- Machine learning project
+
+
 ## 1. Group members
 - _Chen_ -MIT
 - _Jay_ -Cleveland Clinic
