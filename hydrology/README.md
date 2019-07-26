@@ -4,15 +4,27 @@
 ## 1. Follow the following steps to reproduce the project
 
 ### Step-1 Download the repository which has the input files, scripts, and Dockerfile
+open terminal and cd to your working directory, then run the following command
 ```
 git clone https://github.com/cyber-carpentry/group7_repo.git
+```
+```
+cd group7_repo/
+```
+```
+cd hydrology
 ```
 The repository has two folders. After clone the repo to host, cd into hydrology folder
 
 ### Step-2 Download the large input file "hampt_rd_data.sqlite"
-Download link:
+- Download the file from 
 https://www.hydroshare.org/resource/9e1b23607ac240588ba50d6b5b9a49b5/
-After download, put the file into hydrology folder
+- After download, put the file into hydrology folder
+- Tip: if you are using a virtual machine, to transfer the file from your local machine to VM, use scp command.
+example: in your local machine terminal, run
+```
+scp hampt_rd_data.sqlite username@to_host:/remote/directory/
+```
 
 ### Step-3 Build docker image
 ```
