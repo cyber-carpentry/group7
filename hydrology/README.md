@@ -94,3 +94,11 @@ snakemake --use-conda
  - design of container structure: choose a base image and properly set up environent to get every script working
  - call Python2 script within Python3 environment
  - remove hard coded paths
+ 
+  ## 5. Lessons learned
+  - participating Cyber Carpentry workshop is really helpful 
+  - have data management plan at the begining the project's life cycle
+  - consider reproducibility throughout the project
+  - get helps from community 
+  - good documentation is important for reproducibility
+  
