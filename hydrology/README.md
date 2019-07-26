@@ -3,28 +3,33 @@
 
 ## 1. Follow the following steps to reproduce the project
 
-- Step-1 Download the repository which has the input files, scripts, and Dockerfile
+### Step-1 Download the repository which has the input files, scripts, and Dockerfile
+```
+git clone https://github.com/cyber-carpentry/group7_repo.git
+```
+The repository has two folders. After clone the repo to host, cd into hydrology folder
 
-- Step-2 Download the large input file "hampt_rd_data.sqlite" and put in the same folder  https://www.hydroshare.org/resource/9e1b23607ac240588ba50d6b5b9a49b5/
+### Step-2 Download the large input file "hampt_rd_data.sqlite"
+Download link:
+https://www.hydroshare.org/resource/9e1b23607ac240588ba50d6b5b9a49b5/
+After download, put the file into hydrology folder
 
-- Step-3 Run Command in terminal
+### Step-3 Build docker image
 ```
 docker build -t Test_image -f Dockerfile.ubuntu_16_py27_py_3_r_3 .
 ```
-- Step-4 Run Command in terminal
+### Step-4 Run docker image
 ```
 docker run -it Test_image
 ```
-- Step-5 Run Command 
+### Step-5 Run snakemake 
+Firstly, cd into folder with snakemake
 ```
-cd /Final_hydro/snakemake
+"cd /Final_hydro/snakemake
 ```
-- Step-5 Run Command 
+Secondly, run snakemake
 ```
-snakemake --use-conda"
-docker build -t image_name -f Dockerfile.ubuntu_16_py27_py_3_r_3 .
-docker run -t -v  /host/dir:/data  image_name (edited) 
-docker -i -t exec container_ID /bin/sh
+snakemake --use-conda
 ```
 
 ## 2. Description of the workflow
