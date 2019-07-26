@@ -28,7 +28,7 @@ scp hampt_rd_data.sqlite username@to_host:/remote/directory/
 
 ### Step-3 Build docker image
 ```
-docker build -t Test_image -f Dockerfile.ubuntu_16_py27_py_3_r_3 .
+docker build -t test_image -f Dockerfile.ubuntu_16_py27_py_3_r_3 .
 ```
 ### Step-4 Run docker image
 ```
