@@ -39,6 +39,7 @@ docker run -it test_image
 ### Step-5 Run snakemake 
 NOTE: THIS HAS TO BE IN THE DOCKER IMAGE, which means you see something like this root@af643149d197:/#
 Firstly, cd into folder with snakemake
+WARNING: If you are running this from you laptop or Desktop before running make sure your docker has sufficient RAM and CPU. If not you can increase the docker's RAM and CPU utilization from go to docker Icon ---> Preferences  ----> increase the Value of RAM and CPU by dragging the pointer. Otherwise snakemake step will be killed/stopped at rule 2 due to low memmory. 
 ```
 " cd /Final_hydro/snakemake
 ```
