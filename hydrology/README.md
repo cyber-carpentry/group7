@@ -1,11 +1,11 @@
 # Reproducibility note for hydrology project
 
-## 1. Method -1. Follow the following steps to reproduce the project
+## Step-1. Method -1. Follow the following steps to reproduce the project
 ### Pull pre-built image form DockerHub
 ```
 docker pull jayadevjoshi12/team_7_hydrology_image
 ```
-### Run the image
+### Step-2.Run the image
 ```
 docker run -it jayadevjoshi12/team_7_hydrology_image
 ```
@@ -14,9 +14,9 @@ docker run -it jayadevjoshi12/team_7_hydrology_image
 cd /Final_hydro/snakemake
 ```
 
-## 2. Method -2. Follow the following steps to reproduce the project
+## Step-3. Method -2. Follow the following steps to reproduce the project
 
-### Step-1 Download the repository which has the input files, scripts, and Dockerfile
+### Step-1. Download the repository which has the input files, scripts, and Dockerfile
 open terminal and cd to your working directory, then run the following command
 ```
 git clone https://github.com/cyber-carpentry/group7_repo.git
@@ -29,7 +29,7 @@ cd hydrology
 ```
 The repository has two folders. After clone the repo to host, cd into hydrology folder
 
-### Step-2 Download the large input file "hampt_rd_data.sqlite"
+### Step-2. Download the large input file "hampt_rd_data.sqlite"
 - Download the file from 
 https://www.hydroshare.org/resource/9e1b23607ac240588ba50d6b5b9a49b5/
 
@@ -41,15 +41,15 @@ example: in your local machine terminal, run
 scp hampt_rd_data.sqlite username@to_host:/remote/directory/
 ```
 
-### Step-3 Build docker image
+### Step-3. Build docker image
 ```
 Run Command docker build -t test_image -f Dockerfile.ubuntu_16_py27_py_3_r_3 .
 ```
-### Step-4 Run docker image
+### Step-4. Run docker image
 ```
 docker run -it test_image
 ```
-### Step-5 Run snakemake 
+### Step-5. Run snakemake 
 NOTE: THIS HAS TO BE IN THE DOCKER IMAGE, which means you see something like this root@af643149d197:/#
 Firstly, cd into folder with snakemake
 WARNING: If you are running this from you laptop or Desktop before running make sure your docker has sufficient RAM and CPU. If not you can increase the docker's RAM and CPU utilization from go to docker Icon ---> Preferences  ----> increase the Value of RAM and CPU by dragging the pointer. Otherwise snakemake step will be killed/stopped at rule 2 due to low memmory. 
