@@ -1,4 +1,4 @@
-# Reproducibility note for hydrology project
+Instructions and notes for hydrology project
 
 ## Method -1. Follow the following steps to reproduce the project
 ### Step-1. Pull pre-built image form DockerHub
