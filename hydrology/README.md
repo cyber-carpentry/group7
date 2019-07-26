@@ -1,8 +1,11 @@
 # Reproducibility note for hydrology project
 
+
 ## Follow the following steps to reproduce the project
-- 
-- 
+### Gather files and scripts
+- Input files: (1) STORM_data_flooded_streets_2010-2016.csv ; (2) hampt_rd_data.sqlite , download this file from: https://www.hydroshare.org/resource/9e1b23607ac240588ba50d6b5b9a49b5/
+- Dockerfile: 
+### Build and run container
 - 
 
 ## Description of the workflow
@@ -13,7 +16,7 @@
 - Other information from author: Project-II Cheat Sheet.pdf - project information II
 
 ### preprocessing I
-- data: STORM_data_flooded_streets_2010-2016.csv - preprocessing-I data
+- STORM_data_flooded_streets_2010-2016.csv - preprocessing-I data
 - prepare_flood_events_table_NEW.py - preprocessing-I script
 - flood_events.csv - preprocessing-I output
 
