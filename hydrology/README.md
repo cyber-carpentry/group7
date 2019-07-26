@@ -6,14 +6,25 @@
 - Input files: (1) STORM_data_flooded_streets_2010-2016.csv ; (2) hampt_rd_data.sqlite , download this file from: https://www.hydroshare.org/resource/9e1b23607ac240588ba50d6b5b9a49b5/
 - Dockerfile: 
 ### 1.2 Build and run container
-- Step-1 Download the input files:
-- Step-1 Download the  "hampt_rd_data.sqlite" file https://www.hydroshare.org/resource/9e1b23607ac240588ba50d6b5b9a49b5/
-- Step-2 Download the Docker file Link
-- Step-3 Run Command docker build -t Test_image -f Dockerfile.ubuntu_16_py27_py_3_r_3 .
-- Step-4 Run Command docker run -it Test_image
-- Step-5 Run Command "cd /Final_hydro/snakemake" (edited) 
-- Step-5 Run Command "snakemake --use-conda"
+- Step-1 Download the repository which has the input files, scripts, and Dockerfile
+
+- Step-2 Download the large input file "hampt_rd_data.sqlite" and put in the same folder  https://www.hydroshare.org/resource/9e1b23607ac240588ba50d6b5b9a49b5/
+
+- Step-3 Run Command in terminal
 ```
+docker build -t Test_image -f Dockerfile.ubuntu_16_py27_py_3_r_3 .
+```
+- Step-4 Run Command in terminal
+```
+docker run -it Test_image
+```
+- Step-5 Run Command 
+```
+cd /Final_hydro/snakemake
+```
+- Step-5 Run Command 
+```
+snakemake --use-conda"
 docker build -t image_name -f Dockerfile.ubuntu_16_py27_py_3_r_3 .
 docker run -t -v  /host/dir:/data  image_name (edited) 
 docker -i -t exec container_ID /bin/sh
