@@ -114,4 +114,5 @@ snakemake --use-conda
   - consider reproducibility throughout the project
   - get helps from community 
   - good documentation is important for reproducibility
+  - seek feedbacks from users to improve reproducibility
   
