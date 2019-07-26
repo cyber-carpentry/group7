@@ -5,9 +5,9 @@
 
 ## Reproducibility Instructions
 - Hydrology project
-
+https://github.com/cyber-carpentry/group7_repo/blob/master/hydrology/README.md
 - Machine learning project
-
+https://github.com/cyber-carpentry/group7_repo/blob/master/machine_learning/README.md
 
 ## 1. Group members
 - _Chen_ -MIT
