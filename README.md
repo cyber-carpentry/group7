@@ -22,7 +22,8 @@
 - Other materials https://drive.google.com/drive/folders/1T4bUQztoRkm5S6P6fnpC-a5FttteE-jz
 
 ## 4. Deliverables
-- dockerfile with all required environment to run 3 preporocessing python script and 1 R script
+- dockerfile with all required environment to run the hydrology project workflow
+- the workflow include 3 preporocessing python scripts and 1 R script
 
 ## 5. Hydrology project phases
 - project preparation: read paper, make plan, gather script and data
