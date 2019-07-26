@@ -19,7 +19,7 @@ docker -i -t exec container_ID /bin/sh
 - Other inofrmation from author: Project II.pdf - project information I
 - Other information from author: Project-II Cheat Sheet.pdf - project information II
 
-![work_flow](https://github.com/cyber-carpentry/group7_repo/hydrology/sadler_JoH_resource_diagram.png)
+![work_flow](https://github.com/cyber-carpentry/group7_repo/blob/master/hydrology/sadler_JoH_resource_diagram.png)
 
 
 ### 2.2 preprocessing I
