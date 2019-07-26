@@ -3,7 +3,7 @@
 ![group7_logo](https://cdn.archonia.us/images/1-63650-1-1-original1/naruto-shippuden-fabric-poster-team-7.jpg)
 
 
-## 2. Group members
+## 1. Group members
 - _Chen_ -MIT
 - _Jay_ -Cleveland Clinic
 - _An_ -LSU
