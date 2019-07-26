@@ -12,6 +12,7 @@ docker run -it jayadevjoshi12/team_7_hydrology_image
 ### Step-3. IN THE CONTAINER run snakemake
 ```
 cd /Final_hydro/snakemake
+snakemake --use-conda
 ```
 
 ## Method -2. Follow the following steps to reproduce the project
@@ -102,6 +103,7 @@ snakemake --use-conda
 - Python and R versions
 - hard coded paths in the scripts
 - lack of reproducibility documentation
+- Dockerfile base image wihtou specified version tag, causing errors when building the container
 
  ## 5. Difficulties during the project
  - design of container structure: choose a base image and properly set up environent to get every script working
@@ -110,9 +112,14 @@ snakemake --use-conda
  
   ## 6. Lessons learned
   - participating Cyber Carpentry workshop is really helpful 
-  - have data management plan at the begining the project's life cycle
+  - using github, slake and hackmd are helfpful for team work
+  - it's good to have data management plan at the begining the project's life cycle
   - consider reproducibility throughout the project
   - get helps from community 
-  - good documentation is important for reproducibility
+  - good documentation is very important for reproducibility
   - seek feedbacks from users to identify bugs and improve reproducibility
+  - publish pre-built image on DockerHub makes users' life easier
+  - Dockerfile base image need to have specific version tag, e.g. specify Python version
+  - File naming should be very clear
+
   
