@@ -20,9 +20,8 @@ The repository has two folders. After clone the repo to host, cd into hydrology 
 - Download the file from 
 https://www.hydroshare.org/resource/9e1b23607ac240588ba50d6b5b9a49b5/
 
-- After download, put the file into hydrology folder
-
--IF YOUR ARE USING VM:
+- After download, put the file into hydrology folder. 
+IF YOUR ARE USING VM:
 to transfer the file from your local machine to VM, use scp command.
 example: in your local machine terminal, run
 ```
