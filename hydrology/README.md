@@ -48,4 +48,12 @@ docker -i -t exec container_ID /bin/sh
 - use the third output as input to run the R script to generate results.
 - the work flow is containerized.
 
- 
+ ## 3. Factors that affect reproducibility
+- Python and R versions
+- hard coded paths in the scripts
+- lack of reproducibility documentation
+
+ ## 4. Difficulties during the project
+ - design of container structure: choose a base image and properly set up environent to get every script working
+ - call Python2 script within Python3 environment
+ - remove hard coded paths
