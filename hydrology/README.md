@@ -1,6 +1,6 @@
 # Reproducibility note for hydrology project
 
-## Method -1. Follow the following steps to reproduce the project
+## 1. Method -1. Follow the following steps to reproduce the project
 ### Pull pre-built image form DockerHub
 ```
 docker pull jayadevjoshi12/team_7_hydrology_image
@@ -14,7 +14,7 @@ docker run -it jayadevjoshi12/team_7_hydrology_image
 cd /Final_hydro/snakemake
 ```
 
-## Method -2. Follow the following steps to reproduce the project
+## 2. Method -2. Follow the following steps to reproduce the project
 
 ### Step-1 Download the repository which has the input files, scripts, and Dockerfile
 open terminal and cd to your working directory, then run the following command
@@ -62,8 +62,8 @@ snakemake --use-conda
 ```
 
 
-## 2. Description of the workflow
-### 2.1 Overview
+## 3. Description of the workflow
+### 3.1 Overview
 - sadler_JoH_resource_diagram.png - a figure showing workflow
 - there are 2 input files, 3 preprocessing script, and 1 model script
 - Other inofrmation from author: Project II.pdf - project information I
@@ -72,43 +72,43 @@ snakemake --use-conda
 ![work_flow](https://github.com/cyber-carpentry/group7_repo/blob/master/hydrology/sadler_JoH_resource_diagram.png)
 
 
-### 2.2 preprocessing I
+### 3.2 preprocessing I
 - STORM_data_flooded_streets_2010-2016.csv - preprocessing-I data
 - prepare_flood_events_table_NEW.py - preprocessing-I script
 - flood_events.csv - preprocessing-I output
 
-### 2.3 preprocessing II
+### 3.3 preprocessing II
 - preprocessing-II script is too large to be uploaded to Github, see https://www.hydroshare.org/resource/9e1b23607ac240588ba50d6b5b9a49b5/
 - make_dly_obs_table_standalone_NEW.py - preprocessing-II script
 - nor_daily_observations_standalone.csv - preprocessing-II output
 
-### 2.4 preprocessing III
+### 3.4 preprocessing III
 - by_event_for_model_NEW.py - preprocessing-III script
 - for_model_avgs.csv - preprocessing-III output
 
-### 2.5 major R code
+### 3.5 major R code
 - model_flood_counts_rf_ps_cln_NEW.r - Major R code
 - poisson_out_test.csv - output
 - poisson_out_train.csv - output
 - rf_out_test.csv - output
 - rf_out_train.csv - output
 
-### 2.6 Workflow
+### 3.6 Workflow
 - the work flow runs the first two preprocessing code seperated and use their outputs to run the third preprocessing code.
 - use the third output as input to run the R script to generate results.
 - the work flow is containerized.
 
- ## 3. Factors that affect reproducibility
+ ## 4. Factors that affect reproducibility
 - Python and R versions
 - hard coded paths in the scripts
 - lack of reproducibility documentation
 
- ## 4. Difficulties during the project
+ ## 5. Difficulties during the project
  - design of container structure: choose a base image and properly set up environent to get every script working
  - call Python2 script within Python3 environment
  - remove hard coded paths
  
-  ## 5. Lessons learned
+  ## 6. Lessons learned
   - participating Cyber Carpentry workshop is really helpful 
   - have data management plan at the begining the project's life cycle
   - consider reproducibility throughout the project
